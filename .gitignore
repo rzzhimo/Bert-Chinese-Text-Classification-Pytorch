@@ -1,9 +1,7 @@
 ERNIE_pretrain/pytorch_model.bin
 ERNIE_pretrain/bert_config.json
 
-bert_pretrain/bert_config.json
-bert_pretrain/pytorch_model.bin
-bert_pretrain/vocab.txt
+bert_pretrain/
 
 __pycache__/
 
@@ -12,8 +10,29 @@ models/__pycache__/
 pytorch_pretrained/__pycache__/
 run.spec
 
-build/run/
+build
 
-.idea/
+THUCNews/
+/dist
 
-THUCNews/saved_dict/
+*.xml
+*.iml
+.DS_Store
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
