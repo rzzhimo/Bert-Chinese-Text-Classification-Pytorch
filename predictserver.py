@@ -84,6 +84,7 @@ def most_common(seq):
                 break
     return ret
 
+# 预测文本类别的关键函数
 def predict(textList):
     key = []
     value = []

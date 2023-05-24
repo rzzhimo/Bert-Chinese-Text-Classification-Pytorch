@@ -45,6 +45,7 @@ class DatasetIterater(object):
         self.batches = batches
         self.n_batches = len(batches) // batch_size
         self.residue = False  # 记录batch数量是否为整数
+        # 注意，以下两行不注释掉的话跑predict.py，predictserver.py会有bug
         # if len(batches) % self.n_batches != 0:
         #     self.residue = True
         if self.n_batches ==0 or (len(batches) % self.n_batches != 0)  :
